@@ -1,6 +1,6 @@
 {
-    "room":                     "NC 331",
-    "author":                   "donvoo & greySynapse",
+    "room":                     "CCS ROOM TEST",
+    "author":                   "CCS ROOM TEST",
     "css":                      "https://rawgit.com/donvoo/gsD.CS/master/gsD.css",
     "rules": {
         "allowAutorespond":     true,
