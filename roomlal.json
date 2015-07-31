@@ -1,7 +1,7 @@
 {
     "room":                     "CCS ROOM TEST",
     "author":                   "-DONT_STOP-",
-    "icon":                     "http://i.imgur.com/dBnE2vS.jpg?1",
+    "icon":                     "http://i.imgur.com/pvd1fHe.png?1",
     "css":                      "https://raw.githubusercontent.com/dragonkids/room1.json/master/onona.css",
     "rules": {
         "allowAutorespond":     true,
