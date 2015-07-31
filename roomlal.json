@@ -1,6 +1,7 @@
 {
     "room":                     "CCS ROOM TEST",
     "author":                   "-DONT_STOP-",
+    "icon":                     "http://i.imgur.com/zXhGRAj.png"
     "css":                      "https://raw.githubusercontent.com/dragonkids/room1.json/master/onona.css",
     "rules": {
         "allowAutorespond":     true,
@@ -25,7 +26,7 @@
         "user":                 null
     },
     "images": {
-        "background":           "http://www.mrwallpaper.com/wallpapers/Blue-Space-Clouds-1600x900.jpg",
+        "background":           "http://i.imgur.com/zXhGRAj.png",
         "playback":             "http://i.imgur.com/ybkREks.png",
         "admin":                "http://i.imgur.com/jAhVtVF.png",
         "ambassador":           "http://i.imgur.com/HWucg1I.png",
