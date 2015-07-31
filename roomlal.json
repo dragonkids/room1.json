@@ -1,7 +1,7 @@
 {
     "room":                     "CCS ROOM TEST",
-    "author":                   "CCS ROOM TEST",
-    "css":                      "https://rawgit.com/donvoo/gsD.CS/master/gsD.css",
+    "author":                   "-DONT_STOP-",
+    "css":                      "https://raw.githubusercontent.com/dragonkids/room1.json/master/onona.css",
     "rules": {
         "allowAutorespond":     true,
         "allowAutowoot":        true,
