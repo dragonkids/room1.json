@@ -1,0 +1,624 @@
+/*
+Credit to Radiant for this CSS file
+http://radiant.dj
+Heavily modified by Dazzuh for the Nightblue community. 
+*/
+#user-lists .list.staff .group {
+    background: linear-gradient(to right,rgba(0, 0, 0, 0) 0,rgba(0, 0, 0, 1) 100%) !important;
+}
+#footer {
+    background: linear-gradient(to bottom,rgba(0, 0, 0, 0.25) 0,rgba(0, 0, 0, 0.75) 100%);
+}
+#playlist-button {
+    background: linear-gradient(to bottom,#FF5CDE 0,#5700FF 100%);
+}
+#app-header {
+    background: linear-gradient(to bottom,rgba(255, 255, 255, 0.25) 0,rgba(0, 0, 0, 0.75) 100%);
+}
+#store-button {
+    background: linear-gradient(to bottom,#FF0000 0,#A00000 100%);
+}
+#plug-dj {
+    background: linear-gradient(to bottom,#0268AC 0,#02225C 100%);
+}
+.header-panel-button.selected {
+    background: linear-gradient(to bottom,rgba(255, 255, 255, 0.25) 0,rgba(255, 255, 255, 0.06) 100%);
+}
+#plug-menu {
+    background: rgba(40, 44, 53, 0.94) !important;
+}
+#plug-menu .legal {
+    background: rgba(68, 74, 89, 0.46) !important;
+}
+#settings {
+    background: rgba(10, 10, 10, 0.89) !important;
+}
+#user-lists .list .user:hover {
+    background: linear-gradient(to right,rgba(255, 118, 118, 0) 0,rgba(255, 0, 194, 0.27) 100%) !important;
+}
+#waitlist .list .user {
+    background: linear-gradient(to right,rgba(255, 118, 118, 0) 0,rgba(255, 0, 194, 0.13) 100%) !important;
+}
+.app-right .friends {
+    background: none !important;
+}
+#settings .header {
+    background: rgba(28, 31, 37, 0.78) !important;
+}
+@media (max-width: 1600px) {
+    #room .app-right {
+        background: linear-gradient(to right,rgba(0, 0, 0, 0.70) 0,rgba(0, 0, 0, 1) 100%);
+    }
+}
+#chat .message:nth-child(2n+1),#chat .mention:nth-child(2n+1),#chat .skip:nth-child(2n+1),#chat .moderation:nth-child(2n+1),#chat .emote:nth-child(2n+1),#chat .update:nth-child(2n+1),#chat .welcome:nth-child(2n+1) {
+    background-color: rgba(17, 19, 23, 0.32);
+    -webkit-animation:fadein 0.75s;
+    -moz-animation:fadein 0.75s;
+    -ms-animation:fadein 0.75s;
+    -o-animation:fadein 0.75s;
+    animation:fadein 0.75s;
+}
+#chat .emote, #chat .mention, #chat .message, #chat .moderation, #chat .skip, #chat .system, #chat .update, #chat .welcome {
+    -webkit-animation:fadein 0.75s;
+    -moz-animation:fadein 0.75s;
+    -ms-animation:fadein 0.75s;
+    -o-animation:fadein 0.75s;
+    animation:fadein 0.75s;
+}
+#chat .mention {
+    font-weight: 700;
+    /*padding-left: 25px;*/
+    border-left: #7681FF 3px solid;
+}
+#chat .emote .from {
+     color: #42A5DC !important;
+}
+.app-right #chat .emote {
+    border-left: rgba(66, 165, 220, 1) 3px solid !important;
+    background-color: rgba(66, 165, 220, 0.10) !important;
+}
+#chat-messages .emote .icon {
+    /*left: 4px;*/
+}
+#chat .emote .text {
+    font-style: normal;
+    font-weight: bold;
+    color: #42A5DC;
+}
+#footer {
+    background: linear-gradient(to bottom,rgba(0, 0, 0, 0.25) 0,rgba(0, 0, 0, 0.75) 100%);
+}
+#playlist-button {
+    background: linear-gradient(to bottom,#FF5CDE 0,#5700FF 100%);
+}
+.social-menu .icon-twitter,.social-menu .icon-facebook {
+    opacity: 1;
+}
+#playlist-panel {
+    background: rgba(17, 19, 23, 0.9);
+}
+#playlist-menu {
+    background: rgba(28, 31, 37, 0.67);
+}
+#search {
+    background: rgba(50, 55, 66, 0.58);
+}
+#search-bar {
+    background: rgba(17, 19, 23, 0.77);
+}
+#filter-bar {
+    background: rgba(17, 19, 23, 0.77);
+}
+#playlist-edit-button {
+    background: rgba(85, 93, 112, 0.75);
+}
+#playlist-shuffle-button {
+    background: rgba(68, 74, 89, 0.75);
+}
+#playlist-delete-button {
+    background: rgba(50, 55, 66, 0.75);
+}
+#user-panel .score {
+    background: rgba(28, 31, 37, 0.59);
+}
+#dj-button.is-locked .left,#dj-button.is-full .left,#vote .crowd-response.disabled .bottom {
+    background: #222224;
+}
+#dj-button.is-quit .left, #dj-button.is-leave .left, #dj-button.is-wait .left, #dj-button.is-locked .left, #dj-button.is-full .left {
+background: #121214;
+border-radius: 8px;
+border-left-width: 4px;
+}
+#dj-button.is-quit .left {
+border-left: 3px solid #f46b40;
+}
+#dj-button.is-leave .left {
+border-left: 3px solid #f46b40;
+}
+#dj-button.is-wait .left {
+border-left: 3px solid #00b5e6;
+}
+#dj-button.is-locked .left {
+border-left: 3px solid #734ba9;
+}
+#dj-button.is-full .left {
+border-left: 3px solid #CCCCCC;
+}
+#dj-button {
+background: #222224;
+border-radius: 8px;
+}
+#vote .crowd-response {
+background: #222224;
+}
+#woot .bottom, #woot.selected {
+background: #90ad2f;
+}
+#grab .bottom, #grab.selected {
+background: #aa74ff;
+}
+#meh .bottom, #meh.selected {
+background: #c42e3b;
+}
+.row:hover {
+    background: linear-gradient(to right,rgba(255, 118, 118, 0) 0,rgba(41, 48, 124, 0.27) 100%) !important;
+}
+#chat .mention .msg {
+    background: linear-gradient(to right,rgba(255, 118, 118, 0) 0,rgba(41, 48, 124, 0.27) 100%) !important;
+}
+
+/* Custom woot/grab/meh icons */
+
+#woot .icon-woot-disabled, #woot .icon {
+	width: 28px;
+	height: 28px;
+	background: url("https://static-cdn.jtvnw.net/emoticons/v1/20280/1.0") !important;
+}
+
+
+#grab .icon-grab-disabled, #grab .icon {
+	width:28px;
+	height:28px;
+	background: url("https://static-cdn.jtvnw.net/emoticons/v1/33940/1.0") !important;
+}
+
+
+#meh .icon-meh-disabled, #meh .icon {
+	width:28px;
+	height:28px;
+	background: url("https://static-cdn.jtvnw.net/emoticons/v1/27307/1.0");
+}
+
+/* Probably just silly stuff */ 
+
+#chat .moderation, #chat .moderation .from, #chat .moderation .from .un {
+    color: rgb(66, 165, 220) !important;
+}
+
+#chat {
+	background: none;
+}
+
+#room .app-right {
+	background: rgba(10, 10, 10, 0.5);
+}
+
+.icon-room {
+	background: url('https://dazzuh.ovh/plug/logo.png');
+}
+
+#dashboard {
+    background: rgba(0, 0, 0, 0.50);   
+}
+
+#user-view {
+    background: rgba(0, 0, 0, 0.75);
+}
+
+#user-menu {
+    background: rgba(0, 0, 0, 0.75);
+}
+
+#room-settings {
+    background: rgba(0, 0, 0, 0.75);
+}
+
+#chat .is-staff .name {
+    color: #3083FF !important;
+}
+
+.torch { 
+    display: none; 
+}
+/* Custom user icons/colours */
+
+/* NightblueBot/Elsa */
+
+.id-8777285 .msg .from .icon-chat-manager { 
+    background: url('https://dazzuh.ovh/plug/bot.png') !important;
+}
+
+.id-8777285 span.un.clickable { 
+color: rgb(66, 165, 220) !important;
+}
+
+/* Rose */
+
+.id-5713188 span.un.clickable { 
+    color: #FF007F !important;
+} 
+
+.app-right .id-5713188 .msg .from .icon-chat-host { 
+    background: url('https://dazzuh.ovh/plug/roseicon.png') !important;
+}
+
+.id-5713188 i.bdg {
+    background: url('http://dazzuh.ovh/plug/badges/rose.gif') !important;
+} 
+
+.id-5713188 .msg .from .icon-chat-subscriber { 
+    background: url('https://dazzuh.ovh/plug/icons/rose.png') !important;
+}
+
+/* Leafweed */
+
+.id-4178820 i.bdg {
+    width: 30px;
+    height: 30px;
+    background: url('http://i.imgur.com/lcO6Wge.gif') !important;
+} 
+
+.id-4178820 span.un.clickable {
+ -webkit-animation: color_change_leaf 1s infinite alternate;
+ -moz-animation: color_change_leaf 1s infinite alternate;
+ -ms-animation: color_change_leaf 1s infinite alternate;
+ -o-animation: color_change_leaf 1s infinite alternate;
+ animation: color_change_leaf 1s infinite alternate;
+}
+
+@-webkit-keyframes color_change_leaf {
+ from { color: #7FE22E; }
+ to { color: #3083FF; }
+}
+@-moz-keyframes color_change_leaf {
+ from { color: #7FE22E; }
+ to { color: #3083FF; }
+}
+@-ms-keyframes color_change_leaf {
+ from { color: #7FE22E; }
+ to { color: #3083FF; }
+}
+@-o-keyframes color_change_leaf {
+ from { color: #7FE22E; }
+ to { color: #3083FF; }
+}
+@keyframes color_change_leaf {
+ from { color: #7FE22E; }
+ to { color: #3083FF; }
+}
+
+
+/*
+.id-5713188 i.bdg {
+	width: 30px;
+	height: 30px;
+    background: url('https://dazzuh.ovh/plug/rose.png') !important;
+} 
+*/
+
+/* Dazzuh */ 
+
+.id-5786782 span.un.clickable:hover {
+-webkit-animation:rainbow 1s infinite;
+-ms-animation:rainbow 1s infinite;
+-o-animation:rainbow 1s infinite;
+animation:rainbow 1s infinite;
+}
+@-webkit-keyframes rainbow {
+0% {color: #ff0000;}
+10% {color: #ff8000;}
+20% {color: #ffff00;}
+30% {color: #80ff00;}
+40% {color: #00ff00;}
+50% {color: #00ff80;}
+60% {color: #00ffff;}
+70% {color: #0080ff;}
+80% {color: #0000ff;}
+90% {color: #8000ff;}
+100% {color: #ff0080;}
+}
+@-ms-keyframes rainbow {
+0% {color: #ff0000;}
+10% {color: #ff8000;}
+20% {color: #ffff00;}
+30% {color: #80ff00;}
+40% {color: #00ff00;}
+50% {color: #00ff80;}
+60% {color: #00ffff;}
+70% {color: #0080ff;}
+80% {color: #0000ff;}
+90% {color: #8000ff;}
+100% {color: #ff0080;}
+}
+@-o-keyframes rainbow {
+0% {color: #ff0000;}
+10% {color: #ff8000;}
+20% {color: #ffff00;}
+30% {color: #80ff00;}
+40% {color: #00ff00;}
+50% {color: #00ff80;}
+60% {color: #00ffff;}
+70% {color: #0080ff;}
+80% {color: #0000ff;}
+90% {color: #8000ff;}
+100% {color: #ff0080;}
+}
+@keyframes rainbow {
+0% {color: #ff0000;}
+10% {color: #ff8000;}
+20% {color: #ffff00;}
+30% {color: #80ff00;}
+40% {color: #00ff00;}
+50% {color: #00ff80;}
+60% {color: #00ffff;}
+70% {color: #0080ff;}
+80% {color: #0000ff;}
+90% {color: #8000ff;}
+100% {color: #ff0080;}
+}
+
+
+.id-5786782 span.un.clickable {
+ -webkit-animation: color_change 1s infinite alternate;
+ -moz-animation: color_change 1s infinite alternate;
+ -ms-animation: color_change 1s infinite alternate;
+ -o-animation: color_change 1s infinite alternate;
+ animation: color_change 1s infinite alternate;
+}
+
+@-webkit-keyframes color_change {
+ from { color: #00B6CD; }
+ to { color: #3083FF; }
+}
+@-moz-keyframes color_change {
+ from { color: #00B6CD; }
+ to { color: #3083FF; }
+}
+@-ms-keyframes color_change {
+ from { color: #00B6CD; }
+ to { color: #3083FF; }
+}
+@-o-keyframes color_change {
+ from { color: #00B6CD; }
+ to { color: #3083FF; }
+}
+@keyframes color_change {
+ from { color: #00B6CD; }
+ to { color: #3083FF; }
+}
+
+
+.id-5786782 i.bdg {
+    width: 30px;
+    height: 30px;
+    background: url('https://dazzuh.ovh/plug/badges/dazzuh.gif') !important;
+} 
+
+
+/* Sinful */
+
+.id-3583919 span.un.clickable {
+-webkit-animation:rainbow 1s infinite;
+-ms-animation:rainbow 1s infinite;
+-o-animation:rainbow 1s infinite;
+animation:rainbow 1s infinite;
+}
+@-webkit-keyframes rainbow {
+0% {color: #ff0000;}
+10% {color: #ff8000;}
+20% {color: #ffff00;}
+30% {color: #80ff00;}
+40% {color: #00ff00;}
+50% {color: #00ff80;}
+60% {color: #00ffff;}
+70% {color: #0080ff;}
+80% {color: #0000ff;}
+90% {color: #8000ff;}
+100% {color: #ff0080;}
+}
+@-ms-keyframes rainbow {
+0% {color: #ff0000;}
+10% {color: #ff8000;}
+20% {color: #ffff00;}
+30% {color: #80ff00;}
+40% {color: #00ff00;}
+50% {color: #00ff80;}
+60% {color: #00ffff;}
+70% {color: #0080ff;}
+80% {color: #0000ff;}
+90% {color: #8000ff;}
+100% {color: #ff0080;}
+}
+@-o-keyframes rainbow {
+0% {color: #ff0000;}
+10% {color: #ff8000;}
+20% {color: #ffff00;}
+30% {color: #80ff00;}
+40% {color: #00ff00;}
+50% {color: #00ff80;}
+60% {color: #00ffff;}
+70% {color: #0080ff;}
+80% {color: #0000ff;}
+90% {color: #8000ff;}
+100% {color: #ff0080;}
+}
+@keyframes rainbow {
+0% {color: #ff0000;}
+10% {color: #ff8000;}
+20% {color: #ffff00;}
+30% {color: #80ff00;}
+40% {color: #00ff00;}
+50% {color: #00ff80;}
+60% {color: #00ffff;}
+70% {color: #0080ff;}
+80% {color: #0000ff;}
+90% {color: #8000ff;}
+100% {color: #ff0080;}
+}
+
+.id-3583919 .icon-chat-ambassador { 
+    background: url('https://dazzuh.ovh/plug/icons/ba.png') !important;
+}
+
+.app-right .id-3583919 .msg .from .icon-chat-host { 
+    background: url('https://dazzuh.ovh/plug/icons/host.png') !important;
+}
+
+/* Le Coffee */
+
+.id-6654355 .msg .from .icon-chat-bouncer {
+	background: url("http://dazzuh.ovh/plug/coffee.png") !important;
+	width: 16px;
+	height: 16px;
+}
+
+/* DigBickNick */
+
+.id-5502961 i.bdg {
+    width: 30px;
+    height: 30px;
+    background: url('https://dazzuh.ovh/plug/nickbadge.gif') !important;
+} 
+
+.id-5502961 span.un.clickable {
+ -webkit-animation: color_change_nick 1s infinite alternate;
+ -moz-animation: color_change_nick 1s infinite alternate;
+ -ms-animation: color_change_nick 1s infinite alternate;
+ -o-animation: color_change_nick 1s infinite alternate;
+ animation: color_change_nick 1s infinite alternate;
+}
+
+@-webkit-keyframes color_change_nick {
+ from { color: #FFD800; }
+ to { color: #3083FF; }
+}
+@-moz-keyframes color_change_nick {
+ from { color: #FFD800; }
+ to { color: #3083FF; }
+}
+@-ms-keyframes color_change_nick {
+ from { color: #FFD800; }
+ to { color: #3083FF; }
+}
+@-o-keyframes color_change_nick {
+ from { color: #FFD800; }
+ to { color: #3083FF; }
+}
+@keyframes color_change_nick {
+ from { color: #FFD800; }
+ to { color: #3083FF; }
+}
+
+/* Le Toucan */
+
+.id-4193885 span.un.clickable {
+ -webkit-animation: color_change_toucan 1s infinite alternate;
+ -moz-animation: color_change_toucan 1s infinite alternate;
+ -ms-animation: color_change_toucan 1s infinite alternate;
+ -o-animation: color_change_toucan 1s infinite alternate;
+ animation: color_change_toucan 1s infinite alternate;
+}
+
+@-webkit-keyframes color_change_toucan {
+ from { color: #FF9438; }
+ to { color: #3083FF; }
+}
+@-moz-keyframes color_change_toucan {
+ from { color: #FF9438; }
+ to { color: #3083FF; }
+}
+@-ms-keyframes color_change_toucan {
+ from { color: #FF9438; }
+ to { color: #3083FF; }
+}
+@-o-keyframes color_change_toucan {
+ from { color: #FF9438; }
+ to { color: #3083FF; }
+}
+@keyframes color_change_toucan {
+ from { color: #FF9438; }
+ to { color: #3083FF; }
+}
+
+/* NB3 */
+
+.id-6363341 span.un.clickable { 
+    color: #FF38CB !important;
+} 
+
+.id-6363341 .msg .from .icon-chat-host {
+	background: url("http://dazzuh.ovh/plug/pinkhost.png") !important;
+	width: 16px;
+	height: 16px;
+}
+
+/*
+.id-6363341 i.bdg {
+    width: 30px;
+    height: 30px;
+    background: url('https://dazzuh.ovh/plug/keepo.png') !important;
+} 
+*/
+
+/* Pick-a-chu */
+
+.id-6630381 i.bdg {
+    width: 30px;
+    height: 30px;
+    background: url('https://dazzuh.ovh/plug/badges/pika.gif') !important;
+} 
+
+/* Origin */
+
+.id-3675504 .msg .from .un::before {
+    content: 'Senpai ';
+}
+
+.id-3675504 .msg .from .un::after {
+    content: url('https://dazzuh.ovh/plug/test.png');
+    position: relative;
+    left: 3px;
+
+}
+
+/* Watermelonz */
+
+.id-6760917 i.bdg {
+    height: 30px; 
+    width: 30px; 
+    background: url('https://dazzuh.ovh/plug/badges/watermelonzr.gif') !important;
+} 
+
+/* DREKEN */
+
+.id-3632408 i.bdg {
+    background: url('https://dazzuh.ovh/plug/badges/dreken.gif') !important;
+}
+
+/* Dharion */
+
+.id-6553451 i.bdg {
+	background: url('https://dazzuh.ovh/plug/badges/dharion.gif') !important;
+}
+
+
+#container {
+    background: rgba(28, 31, 37, 0.67);
+}
+
+/* mynameisgary */
+
+.id-6487174 i.bdg {
+	background: url('https://dazzuh.ovh/plug/badges/gary.gif') !important;
+}
+
